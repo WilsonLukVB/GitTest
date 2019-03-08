@@ -25,6 +25,7 @@ public class BizCategoryServiceImpl extends BaseServiceImpl<BizCategory> impleme
         return bizCategoryMapper.selectById(id);
     }
 
+	add func3
     @Override
     public List<BizCategory> selectByPid(Integer pid) {
         BizCategory bizCategory = new BizCategory();
